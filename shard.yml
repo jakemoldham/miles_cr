@@ -1,0 +1,28 @@
+name: miles_cr
+version: 0.1.0
+
+authors:
+  - jakemoldham <jakemoldham@gmail.com>
+
+targets:
+  miles_cr:
+    main: src/miles_cr.cr
+
+crystal: 0.21.1
+
+license: MIT
+
+dependencies:
+  # shard for framwork
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+  # Shard for htnl page syntax
+  slang:
+    github: jeromegn/slang
+  # database
+  mysql:
+    github: crystal-lang/crystal-mysql
+  # shard for db wrapper
+  crecto:
+    github: fridgerator/crecto
