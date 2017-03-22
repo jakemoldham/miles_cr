@@ -21,4 +21,5 @@ guard 'kemal', path: 'src', file: 'miles_cr.cr' do
   watch('src/miles_cr.cr') # watch the main kemal server
   watch(%r{src/views/.*\.slang}) # watch your views
   watch(%r{src/models/.*\.cr}) # watch your views
+  watch(%r{src/controllers/.*\.cr}) # watch your views
 end

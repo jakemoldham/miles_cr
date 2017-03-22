@@ -5806,22 +5806,223 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-h1 {
-  color: red;
-  font-size: 50px; }
+#youreinvited-div {
+  width: 100%;
+  height: 55px;
+  padding-top: 23px;
+  background-color: #303a36; }
+  @media screen and (max-width: 991px) {
+    #youreinvited-div {
+      height: 100px;
+      padding-top: 40px; } }
+  #youreinvited-div #youreinvited-img {
+    width: 213px;
+    display: block;
+    margin: auto; }
+    @media screen and (max-width: 991px) {
+      #youreinvited-div #youreinvited-img {
+        width: 450px; } }
 
-h2 {
-  color: blue;
-  font-size: 50px; }
+#hero-bkg {
+  width: 100%;
+  background-size: 100%;
+  background-image: url("../images/birthday-assets/herobkg.png");
+  background-repeat: no-repeat; }
+  #hero-bkg #announcment {
+    display: block;
+    margin: auto;
+    width: 22%;
+    padding-top: 16%;
+    padding-bottom: 16%;
+    margin-bottom: 52px;
+    vertical-align: middle; }
+    @media screen and (max-width: 991px) {
+      #hero-bkg #announcment {
+        min-width: 52%;
+        padding-top: 6%;
+        margin-bottom: 25px; } }
 
-h3 {
-  color: green;
-  font-size: 50px; }
+#birthday-info #fewdetails-div {
+  background-color: #fefefe;
+  margin-bottom: 40px; }
+  #birthday-info #fewdetails-div #fewdetails {
+    width: 255px;
+    display: block;
+    margin: 0 auto; }
+    @media screen and (max-width: 991px) {
+      #birthday-info #fewdetails-div #fewdetails {
+        width: 430px;
+        margin-bottom: 115px;
+        margin-top: 25px; } }
+#birthday-info #date-div {
+  margin-bottom: 23px; }
+  #birthday-info #date-div #date-img {
+    width: 295px;
+    display: block;
+    margin: 0 auto; }
+    @media screen and (max-width: 991px) {
+      #birthday-info #date-div #date-img {
+        width: 550px;
+        margin-bottom: 100px; } }
+#birthday-info #location-div {
+  margin-bottom: 90px; }
+  @media screen and (max-width: 991px) {
+    #birthday-info #location-div {
+      margin-bottom: 110px; } }
+  #birthday-info #location-div #location-img {
+    width: 444px;
+    display: block;
+    margin: 0 auto; }
+    @media screen and (max-width: 991px) {
+      #birthday-info #location-div #location-img {
+        width: 805px; } }
+#birthday-info .google-btn .btn-goog {
+  color: #fff;
+  background-color: #3c564c;
+  border-color: #ccc;
+  display: block;
+  margin: auto;
+  width: 115px;
+  margin-top: -58px;
+  margin-bottom: 57px; }
+  @media screen and (max-width: 991px) {
+    #birthday-info .google-btn .btn-goog {
+      width: 215px;
+      height: 66px;
+      margin-top: -257px;
+      font-size: 22px;
+      padding-top: 18px;
+      margin-bottom: 237px;
+      letter-spacing: 12px;
+      font-weight: 500; } }
+#birthday-info #time-div #time-img {
+  width: 404px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 35px; }
+  @media screen and (max-width: 991px) {
+    #birthday-info #time-div #time-img {
+      width: 655px; } }
+#birthday-info #time-div hr {
+  width: 40%; }
 
-h4 {
-  color: purple;
-  font-size: 50px; }
+#lunch-div {
+  background-color: #fofofo; }
+  #lunch-div #lunch-img {
+    width: 244px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 40px; }
+    @media screen and (max-width: 991px) {
+      #lunch-div #lunch-img {
+        width: 450px;
+        margin-top: 70px;
+        margin-bottom: 80px; } }
+  #lunch-div hr {
+    width: 40%; }
 
-h5 {
-  color: yellow;
-  font-size: 50px; }
+#guests-form {
+  width: 100%;
+  height: 400px;
+  display: block;
+  margin: auto; }
+  @media screen and (max-width: 991px) {
+    #guests-form {
+      height: 530px; } }
+  #guests-form p {
+    text-align: center;
+    font-size: 20px;
+    color: #8a8a8a;
+    letter-spacing: 2px; }
+    @media screen and (max-width: 991px) {
+      #guests-form p {
+        font-size: 40px;
+        letter-spacing: 12px;
+        font-weight: 500; } }
+  #guests-form #yesno {
+    text-align: center;
+    margin-bottom: 10px; }
+    #guests-form #yesno #coming {
+      display: none; }
+    #guests-form #yesno #notcoming {
+      display: none; }
+  #guests-form #guest-name, #guests-form #guests {
+    width: 262px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-bottom: 18px;
+    padding-left: 10px; }
+    @media screen and (max-width: 991px) {
+      #guests-form #guest-name, #guests-form #guests {
+        width: 509px;
+        border: 1px solid black;
+        height: 80px;
+        font-size: 30px;
+        margin-bottom: 18px;
+        padding-left: 20px; } }
+  #guests-form .sub-btn {
+    width: 262px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    background-color: #3c564c;
+    display: block;
+    margin: auto; }
+    @media screen and (max-width: 991px) {
+      #guests-form .sub-btn {
+        width: 509px;
+        height: 80px;
+        font-size: 30px;
+        letter-spacing: 12px;
+        font-weight: 500; } }
+
+.notcomming-check {
+  color: #dbdbdb;
+  font-size: 2em;
+  padding: 0 20px; }
+  @media screen and (max-width: 991px) {
+    .notcomming-check {
+      font-size: 3em; } }
+
+.comming-check {
+  color: #3c564c;
+  font-size: 2em;
+  padding: 0 20px; }
+  @media screen and (max-width: 991px) {
+    .comming-check {
+      font-size: 3em; } }
+
+#cant-wait {
+  width: 100%;
+  height: 55px;
+  background-color: #dbdbdb;
+  text-align: center;
+  padding-top: 20px; }
+  @media screen and (max-width: 991px) {
+    #cant-wait {
+      height: 100px;
+      text-align: center;
+      padding-top: 32px;
+      font-size: 30px;
+      letter-spacing: 12px;
+      font-weight: 500; } }
+
+.carrots {
+  color: #8ca56c; }
+
+#sum-guests h1, #sum-guests #sg, #sum-guests #sng, #sum-not-guests h1, #sum-not-guests #sg, #sum-not-guests #sng {
+  display: inline-block;
+  font-size: 2em; }
+
+.coming-box {
+  border: 1px solid #000;
+  margin: 10px; }
+
+.top-row {
+  padding-top: 50px; }
+
+.inline {
+  display: inline-block;
+  padding-right: 5px; }
